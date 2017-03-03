@@ -2,14 +2,21 @@
 Consignment Stock Check / RGA Form
 This application is used to perform stock counts at customer’s location as well as returns. 
 How to use it
+
 1)	Install the Excel Add-in from \\mofasa.besa.bsi.corp\Shared\Everyone\IT\BESA\SAP - Cons Stock\CSC\setup.exe
 
 2)	Open the latest Consignment Stock File (current version is 10.13.03).
+
 3)	Click on “ADD-INS” in the Ribbon, then on “Extract Data” in “SAP Extract”. Enter the customer’s 6 digit number (the same as the one in SAP).
+
 4)	The file gets populated with the relevant data. 
+
 5)	Customer Service employee sends it to the sales rep using the “Save and send CS ONLY” button on the “CONSIGMENT STOCK” tab.
+
 6)	When the sales rep received the file, they fill out the “SCANNED QTY” tab with the relevant information. They then start scanning their products starting from cell B8 using their handheld scanner (Motorola CS3070). As this devices acts as a keyboard with an EN-US layout, some users might run into an issue when scanning products containing numbers and/or the letter Z, W, Y, A, Q. Therefore, when the an array which is supposed to have barcodes scanned into it is selected, a VBA code changes the user’s keyboard layout to EN-US, then switches it back to the original one as soon as that given array is left.
+
 7)	Upon completion, the user send the file back to the appropriate department using the “Save file & send mail” button the “CONSIGNMENT STOCK” tab.
+
 
 Proceeding with an RGA is roughly the same thing:
 
