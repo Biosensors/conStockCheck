@@ -1,8 +1,9 @@
-# conStockCheck
+# consStockCheck
 Consignment Stock Check / RGA Form
 This application is used to perform stock counts at customer’s location as well as returns. 
 How to use it
 1)	Install the Excel Add-in from \\mofasa.besa.bsi.corp\Shared\Everyone\IT\BESA\SAP - Cons Stock\CSC\setup.exe
+
 2)	Open the latest Consignment Stock File (current version is 10.13.03).
 3)	Click on “ADD-INS” in the Ribbon, then on “Extract Data” in “SAP Extract”. Enter the customer’s 6 digit number (the same as the one in SAP).
 4)	The file gets populated with the relevant data. 
